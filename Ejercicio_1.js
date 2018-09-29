@@ -75,7 +75,7 @@ function Prom(){
     var sum = 0;
     if(Ventas.length > 0){
         for (let i of Ventas){
-            sum = sum + i;
+            sum = sum + parseInt(i);
         }
         let prom = sum/Ventas.length;
         console.log(prom);
